@@ -44,7 +44,7 @@ This dataset consists of information of the individual’s previous credit histo
 
 ## Exploratory Data Analysis
 
-- Proper EDA can be viewed at this [**link**](https://jovian.ai/hirenrupchandani/group20-phase4#C37)
+- Proper EDA can be viewed at this [**link**](https://jovian.ai/hirenrupchandani/home-credit-default-risk#C35)
 
 ## Feature Engineering
 - This phase involves preparing features from the application_train.csv and application_test.csv datasets by introducing 3rd-degree polynomial features. We took a subset of that new data to train and evaluate the baseline models. We also used other secondary tables that are provided to us in the HCDR dataset. We have primarily focused on previous_application.csv and bureau.csv tables in this phase.
