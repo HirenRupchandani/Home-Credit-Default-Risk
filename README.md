@@ -27,7 +27,7 @@ There are several other datasets that correlate to the application dataset, and 
 
 The following diagram shows the relation between various datasets provided in the problem:
 
-![dataset.jpeg](https://raw.github.iu.edu/hrupchan/Home-Credit-Default-Risk/main/Images/dataset.jpeg?token=GHSAT0AAAAAAAAASPN2WZEPWWV5E3JBZX5MY6AM4OQ)
+![dataset.jpeg](https://raw.githubusercontent.com/HirenRupchandani/Home-Credit-Default-Risk/main/Images/dataset.jpeg)
 
 **application_{train|test}.csv**
 This is the main dataset consisting of test and training samples. It consists of personal details about the loan applicant and connects with other sets using the SK_ID_CURR attribute.
