@@ -196,15 +196,15 @@ AUC is calculated as the Area Under the $Sensitivity$(TPR)-$(1-Specificity)$(FPR
 
 - The model started overfitting after 10 epochs due to the complexity of the dataset so we grounded the networks to 10-15 epochs.
 
-- Our **best FCNN** was then determined and after another set of tweaks with the model architecture, we were able to score a kaggle public score of **0.736**, best so far amongst all the models.
+- Our **best FCNN** was then determined and after another set of tweaks with the model architecture, we were able to score a kaggle public score of **0.736**, the best so far amongst all the models.
 
 ## Conclusion
 
-- In this project, we are attempting to predict whether a specific client will repay the loan they have taken out. We had performed Exploratory Data Analysis, some feature engineering and created baseline models in the initial two phases. In the previous phase (i.e. phase 3), we merged the datasets, performed some more feature engineering (deriving polynomial and aggregated features) and hyperparameter tuning obtaining the best F1 score of 0.148820 for Decision Tree Classifier. 
-- Upon Kaggle submission in **past** phases, Logistic Regression was the best performing model with an ROC-AUC score of approximately 72%. 
-- In the **current phase**, we performed Random Undersampling to remove the imbalance in the dataset. We also performed Feature Importance to derive the relative importance scores of input features during prediction (using Random Forest Algorithm) and reduce the complexity of the dataset. 
+- In this project, we are attempting to predict whether a specific client will repay the loan they have taken out. We performed Exploratory Data Analysis, and some feature engineering and created baseline models in the initial two phases. In the previous phase (i.e. phase 3), we merged the datasets and performed some more feature engineering (deriving polynomial and aggregated features) and hyperparameter tuning obtaining the best F1 score of 0.148820 for Decision Tree Classifier. 
+- Upon Kaggle's submission in **past** phases, Logistic Regression was the best-performing model with an ROC-AUC score of approximately 72%. 
+- In the **current phase**, we performed Random Undersampling to remove the imbalance in the dataset. We also performed Feature Importance to derive the relative importance scores of input features during prediction (using the Random Forest Algorithm) and reduce the complexity of the dataset. 
 - In this last phase, we have implemented a Multi-Layer Perception (MLP) model for loan default classification.  We obtained the best performance with the developed MLP model with an F1 Score of 0.262235.
-- Upon Kaggle Submission, the best performing model was again the developed neural network  with an AUC private score of 73.21% and public score of 73.61%. We were able to obtain our best performance by implementing the MLP model in the current phase.
+- Upon Kaggle Submission, the best performing model was again the developed neural network  with an AUC private score of 73.21% and a public score of 73.61%. We were able to obtain our best performance by implementing the MLP model in the current phase.
 - For **Future** scope, we can try improving the accuracy by increasing the complexity of  the neural network and performing more hyperparameter tuning.
 
 
@@ -212,8 +212,8 @@ AUC is calculated as the Area Under the $Sensitivity$(TPR)-$(1-Specificity)$(FPR
 
 - These are the final submissions of all the tuned models:
 
-![Kaggle_other_models.jpeg](https://raw.github.iu.edu/hrupchan/Home-Credit-Default-Risk/main/Images/Kaggle_other_models.jpeg?token=GHSAT0AAAAAAAAASPN2BKROK4DMRV3WURCUY6AM3FQ)
+![Kaggle_other_models.jpeg](https://github.com/HirenRupchandani/Home-Credit-Default-Risk/blob/main/Images/Kaggle_other_models.jpeg?raw=true)
 
-- Our Final best Predicting Model yields the best final score:
+- Our Final Predicting Model yields the best final score:
 
-![nn_prediction.png](https://raw.github.iu.edu/hrupchan/Home-Credit-Default-Risk/main/Images/nn_prediction.png?token=GHSAT0AAAAAAAAASPN2LR2EJLHEHMJ4ZWXWY6AM3EQ)
+![nn_prediction.png](https://github.com/HirenRupchandani/Home-Credit-Default-Risk/blob/main/Images/nn_prediction.png?raw=true)
